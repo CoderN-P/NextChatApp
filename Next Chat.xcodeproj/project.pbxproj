@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D660DD2A2C34B04D00A8BE60 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660DD292C34B04D00A8BE60 /* LoginView.swift */; };
+		D660DD2C2C34B06100A8BE60 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660DD2B2C34B06100A8BE60 /* SidebarView.swift */; };
+		D660DD2F2C34B07A00A8BE60 /* MemberSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660DD2E2C34B07A00A8BE60 /* MemberSidebarView.swift */; };
+		D660DD312C34B08900A8BE60 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660DD302C34B08900A8BE60 /* ChatView.swift */; };
+		D660DD332C34B09F00A8BE60 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660DD322C34B09F00A8BE60 /* MessageView.swift */; };
+		D660DD352C34B0AD00A8BE60 /* EmbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660DD342C34B0AD00A8BE60 /* EmbedView.swift */; };
+		D660DD372C34B2B000A8BE60 /* TextBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660DD362C34B2B000A8BE60 /* TextBoxView.swift */; };
+		D660DD3A2C34B46300A8BE60 /* TailwindCSS-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D660DD392C34B46300A8BE60 /* TailwindCSS-SwiftUI */; };
 		D6ADF9232C34AFCF001DCE81 /* Next_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ADF9222C34AFCF001DCE81 /* Next_ChatApp.swift */; };
 		D6ADF9252C34AFCF001DCE81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ADF9242C34AFCF001DCE81 /* ContentView.swift */; };
 		D6ADF9272C34AFCF001DCE81 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ADF9262C34AFCF001DCE81 /* Item.swift */; };
@@ -35,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D660DD292C34B04D00A8BE60 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D660DD2B2C34B06100A8BE60 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		D660DD2E2C34B07A00A8BE60 /* MemberSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberSidebarView.swift; sourceTree = "<group>"; };
+		D660DD302C34B08900A8BE60 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		D660DD322C34B09F00A8BE60 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		D660DD342C34B0AD00A8BE60 /* EmbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedView.swift; sourceTree = "<group>"; };
+		D660DD362C34B2B000A8BE60 /* TextBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBoxView.swift; sourceTree = "<group>"; };
 		D6ADF91F2C34AFCF001DCE81 /* Next Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Next Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6ADF9222C34AFCF001DCE81 /* Next_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next_ChatApp.swift; sourceTree = "<group>"; };
 		D6ADF9242C34AFCF001DCE81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D660DD3A2C34B46300A8BE60 /* TailwindCSS-SwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +89,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D660DD272C34B03200A8BE60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D660DD282C34B03700A8BE60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D660DD292C34B04D00A8BE60 /* LoginView.swift */,
+				D660DD2B2C34B06100A8BE60 /* SidebarView.swift */,
+				D660DD2E2C34B07A00A8BE60 /* MemberSidebarView.swift */,
+				D660DD302C34B08900A8BE60 /* ChatView.swift */,
+				D660DD322C34B09F00A8BE60 /* MessageView.swift */,
+				D660DD342C34B0AD00A8BE60 /* EmbedView.swift */,
+				D660DD362C34B2B000A8BE60 /* TextBoxView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D6ADF9162C34AFCF001DCE81 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +133,8 @@
 		D6ADF9212C34AFCF001DCE81 /* Next Chat */ = {
 			isa = PBXGroup;
 			children = (
+				D660DD282C34B03700A8BE60 /* Views */,
+				D660DD272C34B03200A8BE60 /* Models */,
 				D6ADF9222C34AFCF001DCE81 /* Next_ChatApp.swift */,
 				D6ADF9242C34AFCF001DCE81 /* ContentView.swift */,
 				D6ADF9262C34AFCF001DCE81 /* Item.swift */,
@@ -146,6 +185,9 @@
 			dependencies = (
 			);
 			name = "Next Chat";
+			packageProductDependencies = (
+				D660DD392C34B46300A8BE60 /* TailwindCSS-SwiftUI */,
+			);
 			productName = "Next Chat";
 			productReference = D6ADF91F2C34AFCF001DCE81 /* Next Chat.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +260,9 @@
 				Base,
 			);
 			mainGroup = D6ADF9162C34AFCF001DCE81;
+			packageReferences = (
+				D660DD382C34B46300A8BE60 /* XCRemoteSwiftPackageReference "TailwindCSS-SwiftUI" */,
+			);
 			productRefGroup = D6ADF9202C34AFCF001DCE81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,6 +307,13 @@
 			files = (
 				D6ADF9252C34AFCF001DCE81 /* ContentView.swift in Sources */,
 				D6ADF9272C34AFCF001DCE81 /* Item.swift in Sources */,
+				D660DD2C2C34B06100A8BE60 /* SidebarView.swift in Sources */,
+				D660DD372C34B2B000A8BE60 /* TextBoxView.swift in Sources */,
+				D660DD2F2C34B07A00A8BE60 /* MemberSidebarView.swift in Sources */,
+				D660DD332C34B09F00A8BE60 /* MessageView.swift in Sources */,
+				D660DD312C34B08900A8BE60 /* ChatView.swift in Sources */,
+				D660DD352C34B0AD00A8BE60 /* EmbedView.swift in Sources */,
+				D660DD2A2C34B04D00A8BE60 /* LoginView.swift in Sources */,
 				D6ADF9232C34AFCF001DCE81 /* Next_ChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,6 +644,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D660DD382C34B46300A8BE60 /* XCRemoteSwiftPackageReference "TailwindCSS-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joemasilotti/TailwindCSS-SwiftUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D660DD392C34B46300A8BE60 /* TailwindCSS-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D660DD382C34B46300A8BE60 /* XCRemoteSwiftPackageReference "TailwindCSS-SwiftUI" */;
+			productName = "TailwindCSS-SwiftUI";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6ADF9172C34AFCF001DCE81 /* Project object */;
 }
